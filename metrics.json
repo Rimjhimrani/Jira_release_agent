@@ -1,0 +1,26 @@
+{
+  "overall": "BLOCKED",
+  "elapsed_seconds": 0.2,
+  "provider": "offline-rule-baseline",
+  "model": "none (rule-based)",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "model_calls": 85,
+  "tool_calls": 85,
+  "jira_requests": 103,
+  "errors": [],
+  "decisions": {
+    "REQ-01": "PASS",
+    "REQ-02": "FAIL",
+    "REQ-03": "INSUFFICIENT_EVIDENCE",
+    "REQ-04": "PASS",
+    "REQ-05": "FAIL",
+    "REQ-06": "INSUFFICIENT_EVIDENCE",
+    "REQ-07": "PASS",
+    "REQ-08": "FAIL",
+    "REQ-09": "INSUFFICIENT_EVIDENCE",
+    "REQ-10": "PASS",
+    "REQ-11": "INSUFFICIENT_EVIDENCE",
+    "REQ-12": "FAIL"
+  }
+}
