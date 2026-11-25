@@ -1,3 +1,7 @@
 anthropic==2.13.0
 requests==2.34.2
 pytest==9.1.1
+python -m release_agent import --project KYN
+python -m release_agent verify-import --project KYN
+python -m release_agent assess --project KYN --label tyn-release-assessment-v2 --release R2.4 --provider anthropic --out outputs
+python tools/fill_readme.py
